@@ -4,6 +4,8 @@ Simple currency converter created as a Laravel framework package
 
 ### Installation
 
+As with any `Laravel` project, `composer install` is necessary.
+
 This version comes along with a package inside `package` directory. It is made so that it can be easily made into its own repository and installed via `composer`.
 
 The service provider needs to be added to the `providers` array in `config/app.php`
