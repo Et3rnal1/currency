@@ -1,0 +1,25 @@
+{
+    "name": "eternal1/currency-converter",
+    "description": "Currency converter from ECB widget",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Pochekuev",
+            "email": "sent1@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Eternal1\\Currency\\": "src"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "php artisan vendor:publish"
+      ]
+    },
+    "require": {
+      "illuminate/support": "5.x"
+    }
+}
